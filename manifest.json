@@ -1,0 +1,21 @@
+{
+  "name": "Tabungin — Tabungan & Pengeluaran",
+  "short_name": "Tabungin",
+  "description": "Kelola tabungan, pengeluaran, target, dan wishlist Anda dengan mudah.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B1410",
+  "theme_color": "#0E8F69",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Tambah Pengeluaran", "short_name": "Pengeluaran", "url": "./index.html#pengeluaran", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Scan Barcode", "short_name": "Scan", "url": "./index.html#scan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Tabungan", "short_name": "Tabungan", "url": "./index.html#tabungan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
